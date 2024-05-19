@@ -10,9 +10,11 @@ target <- sample(german_words, 1)
 #' @description This function compares whether the letters in the target word are the same as in the guessed word
 #' @param target_str character. Should be a word with the same length as the guessed word
 #' @param guess_str character. Should be a word with the same length as the target word
+#' 
 #' @return Shows whether the letter is in the word and on the correct place, in the word but incorrect place, or not in the word
 #' @examples
-#' # compare_words("haus","maus")
+#' # Compare two words
+#' compare_words("haus","maus")
 #' @export
 compare_words <- function(target_str, guess_str) {
   if (nchar(target_str) != nchar(guess_str)) {
