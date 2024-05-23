@@ -4,20 +4,20 @@
 \alias{compare_words}
 \title{Compare Words}
 \usage{
-compare_words(target_str, guess_str)
+compare_words(guess_str)
 }
 \arguments{
-\item{target_str}{character. Should be a word with the same length as the guessed word}
-
 \item{guess_str}{character. Should be a word with the same length as the target word}
+
+\item{target_str}{character. Should be a word with the same length as the guessed word}
 }
 \value{
-Shows whether the letter is in the word and on the correct place, in the word but incorrect place, or not in the word
+character vector. Shows whether the letter is in the word and on the correct place, in the word but incorrect place, or not in the word
 }
 \description{
 This function compares whether the letters in the target word are the same as in the guessed word
 }
 \examples{
-# Compare two words
-compare_words("haus","maus")
+# Compare the guessed word with the target word
+compare_words("hallo")
 }
