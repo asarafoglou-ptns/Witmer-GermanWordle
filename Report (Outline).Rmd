@@ -10,19 +10,19 @@ output: pdf_document
 This project is a German version of the popular game "Wordle". People need to guess a five letter German word. They only have six attempts. They receive the information whether they guessed a letter correct with the right position, correct with a wrong position or not correct.
 
 
-## Scenario
+## Scenario and Example
 
-Purpose: Scenario that describes the use of the online game "Wordle" in German by a random German speaking person.
+Purpose: Scenario that describes the use of the online game "Wordle" in German by a random German speaking person. I will use Screenshots to illustrate an example. 
 
 **Individual:** User A, a German speaking person
 
-**Equipment:** A computer with R and R Shiny installed
+**Equipment:** A computer with R and R Shiny installed, 
 
-**Scenario:**
+**Scenario with Examples:**
 
 1\. User A opens the shiny app by running the r code.
 
-2\. The shiny app displays the German Wordle with a short description (See sketch of User interface) and six rows of five blank tiles.
+2\. The shiny app displays the German Wordle with a short description and six rows of five blank tiles.
 
 3\. User A reads the description "Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word."
 
@@ -50,8 +50,7 @@ Purpose: Scenario that describes the use of the online game "Wordle" in German b
 
 ![](images/Flow%20Chart.jpg)
 
-## Sketch of User interface
+## How To For Users
 
-This is an example of my UI.
+.. 
 
-![](images/Sketch.jpeg)
