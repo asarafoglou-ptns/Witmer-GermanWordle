@@ -1,0 +1,57 @@
+---
+title: "PTNS Report German Wordle"
+author: "Jessika Witmer"
+date: "2024-05-26"
+output: pdf_document
+---
+
+## Description
+
+This project is a German version of the popular game "Wordle". People need to guess a five letter German word. They only have six attempts. They receive the information whether they guessed a letter correct with the right position, correct with a wrong position or not correct.
+
+
+## Scenario
+
+Purpose: Scenario that describes the use of the online game "Wordle" in German by a random German speaking person.
+
+**Individual:** User A, a German speaking person
+
+**Equipment:** A computer with R and R Shiny installed
+
+**Scenario:**
+
+1\. User A opens the shiny app by running the r code.
+
+2\. The shiny app displays the German Wordle with a short description (See sketch of User interface) and six rows of five blank tiles.
+
+3\. User A reads the description "Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word."
+
+4\. User A types in their first guess of a German five letter word (e.g., "HALLO")
+
+5\. User A sees which letters are correct and in the right place (highlighted green), correct but in the wrong place (highlighted yellow) or incorrect (highlighted gray). E.g., H is correct and right place, L and O are correct but wrong place, and A and the second L is incorrect.
+
+6\. User A now knows that H needs to be the first letter of the word and that E and one L is included.
+
+7\. User A thinks of a second word and types it in. This word does not exist, thus they receive a message, that they need to think of a German word that does exist.
+
+8\. User A comes up with an existing word (e.g., "HOSEN") and types it in.
+
+9\. Again, the program highlights correct and incorrect letters. Now User A knows that again H, but also O and E are correct and in the right place. S and N are incorrect.
+
+10\. User A types in a third word "HOBEL".
+
+11\. The word "HOBEL" is correct, therefore all letters of this word are highlighted in green and User A receives the message: "Congrats. You guessed this word correctly!".
+
+12\. User A can now close this page or reload it. If it is reloaded the user can guess a new word.
+
+13\. In case the user does not correctly guess the word in 6 attempts, they will see the message "Unfortunately, you have not guessed the correct word. The word was: XXX. You can reload the page to try a new word."
+
+## Flow Chart
+
+![](images/Flow%20Chart.jpg)
+
+## Sketch of User interface
+
+This is an example of my UI.
+
+![](images/Sketch.jpeg)
