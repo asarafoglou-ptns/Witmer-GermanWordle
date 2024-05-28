@@ -77,6 +77,8 @@ Example:
 
 ## Flow Chart
 
+![](images/FlowChart.jpg){width="517"}
+
 ## How To For Users
 
 ..
