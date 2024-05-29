@@ -6,7 +6,7 @@
 # library(htmltools)
 
 # Use wordlist from an external file
-#' @export
+#' @export 
 source("Wordlist.R")
 
 #' @title German Wordle
