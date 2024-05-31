@@ -9,6 +9,10 @@
 #' @export 
 source("Wordlist.R")
 
+#' @import shiny
+#' @importFrom bslib bs_theme
+#' @importFrom htmltools tags
+
 #' @title German Wordle
 #' @description This is a function for playing the popular online-game Wordle in German in a Shiny App.
 #' @param / No input needed.
