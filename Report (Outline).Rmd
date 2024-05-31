@@ -1,7 +1,7 @@
 ---
 title: "PTNS Report German Wordle"
 author: "Jessika Witmer"
-date: "2024-05-26"
+date: "2024-05-31"
 output: pdf_document
 ---
 
@@ -23,13 +23,13 @@ Purpose: Scenario that describes the use of the online game "Wordle" in German b
 
 2\. The shiny app displays the German Wordle with a short description and six rows of five blank tiles.
 
-![](images/Bildschirmfoto%202024-05-28%20um%2016.50.19.png){width="357"}
+![](images/Bildschirmfoto%202024-05-28%20um%2016.50.19.png){width="262"}
 
 3\. User A reads the description "Guess the Wordle in 6 tries. Each guess must be a valid 5-letter word. The color of the tiles will change to show how close your guess was to the word."
 
 4\. User A types in their first guess of a German five letter word (e.g., "HALLO") and clicks enter.
 
-![](images/Bildschirmfoto%202024-05-28%20um%2016.54.06.png){width="361"}
+![](images/Bildschirmfoto%202024-05-28%20um%2016.54.06.png){width="253"}
 
 5\. User A sees which letters are correct and in the right place (highlighted green), correct but in the wrong place (highlighted yellow) or incorrect (highlighted gray).
 
@@ -39,13 +39,13 @@ Example: Here only L is correct, H and O are correct but in a wrong place and A 
 
 Example: User types in "OBRAW". This word is not a german existing 5 letter word.
 
-![](images/Bildschirmfoto%202024-05-28%20um%2016.57.07.png){width="337"}
+![](images/Bildschirmfoto%202024-05-28%20um%2016.57.07.png){width="240"}
 
 8\. User A closes the tab and deletes the false guess and comes up with a new existing word.
 
 Example: User A comes up with "BODEN" and clicks enter.
 
-![](images/Bildschirmfoto%202024-05-28%20um%2016.59.50.png){width="374"}
+![](images/Bildschirmfoto%202024-05-28%20um%2016.59.50.png){width="273"}
 
 9\. Again, the program highlights correct and incorrect letters.
 
@@ -55,7 +55,7 @@ Example: Now User A knows that again O is the second letter and B, D, E and N ar
 
 Example: User A types in a third word "DOLCH".
 
-![](images/Bildschirmfoto%202024-05-28%20um%2017.02.59.png){width="377"}
+![](images/Bildschirmfoto%202024-05-28%20um%2017.02.59.png){width="270"}
 
 11\. Again, the program highlights correct and incorrect letters.
 
@@ -65,7 +65,7 @@ Example: The word "DOLCH" is almost correct, O, L, C, H are correct and on the r
 
 Example: User A types in the word "SOLCH". Therfore it sees the congratulations message and that the word was indeed SOLCH.
 
-![](images/Bildschirmfoto%202024-05-28%20um%2017.05.04.png){width="325"}
+![](images/Bildschirmfoto%202024-05-28%20um%2017.05.04.png){width="228"}
 
 12\. User A closes the pop up message and can now close this page or reload it. If it is reloaded the user can guess a new word. In this case User A closes the page.
 
@@ -73,7 +73,7 @@ Example: User A types in the word "SOLCH". Therfore it sees the congratulations 
 
 Example:
 
-![](images/Bildschirmfoto%202024-05-28%20um%2017.09.01.png){width="331"}
+![](images/Bildschirmfoto%202024-05-28%20um%2017.09.01.png){width="251"}
 
 ## Flow Chart
 
@@ -85,8 +85,8 @@ The usage is very simple. User can enter letters by either using their own keybo
 
 If the game is finished (either because the word is guessed correctly or after six attempts), a pop up window with a message pops up. This window need to be closed. The user can start a new game by either reloading the page or clicking on "New game".
 
-![](images/Bildschirmfoto%202024-05-28%20um%2018.46.41.png){width="385"}
+![](images/Bildschirmfoto%202024-05-28%20um%2018.46.41.png){width="265"}
 
-![](images/Bildschirmfoto%202024-05-28%20um%2018.48.06.png){width="384"}
+![](images/Bildschirmfoto%202024-05-28%20um%2018.48.06.png){width="266"}
 
-![](images/Bildschirmfoto%202024-05-28%20um%2018.51.08.png){width="376"}
+![](images/Bildschirmfoto%202024-05-28%20um%2018.51.08.png){width="264"}
