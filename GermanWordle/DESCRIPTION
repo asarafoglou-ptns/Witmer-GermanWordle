@@ -1,11 +1,15 @@
-Package: GermanWordle
-Title: Playing Wordle in German
+Package: germanwordle
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
     person("Jessika", "Witmer", , "jessi.witmer@student.uva.nl", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This is a package for playing the popular online-game in German.
+Description: This is a package for playing the popular online-game Wordle in German.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Imports:
+    shiny,
+    bslib,
+    htmltools
